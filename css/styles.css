@@ -1,0 +1,16 @@
+.text {
+    font-size: 30;
+    color: blue;
+}
+.desc {
+    font-size: 50;
+    color: darkred;
+}
+.images-list {
+    list-style: none;
+}
+.Hero-btn {
+    font-size: large;
+    color: aqua;
+    background-color: blueviolet;
+}
