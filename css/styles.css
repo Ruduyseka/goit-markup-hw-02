@@ -10,6 +10,7 @@ color: #2196F3;
 }
 .Hero-btn:hover,
 .Hero-btn:focus {
-    color: #2196F3;
+    color: white;
+    background-color: #2196F3;
     cursor: pointer;
 }
