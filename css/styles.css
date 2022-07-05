@@ -1,16 +1,15 @@
-.text {
-    font-size: 30;
-    color: blue;
+.header-link:hover,
+.header-link:focus
+ {
+color: #2196F3;
 }
-.desc {
-    font-size: 50;
-    color: darkred;
+.mail:hover,
+.mail:focus 
+{
+color: #2196F3;
 }
-.images-list {
-    list-style: none;
-}
-.Hero-btn {
-    font-size: large;
-    color: aqua;
-    background-color: blueviolet;
+.Hero-btn:hover,
+.Hero-btn:focus {
+    color: #2196F3;
+    cursor: pointer;
 }
