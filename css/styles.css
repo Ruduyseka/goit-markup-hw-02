@@ -8,9 +8,49 @@ color: #2196F3;
 {
 color: #2196F3;
 }
-.Hero-btn:hover,
-.Hero-btn:focus {
+.main-button {
     color: white;
     background-color: #2196F3;
     cursor: pointer;
+}
+.btn {}
+.header-list{
+    list-style: none;
+}
+.adress {
+    list-style: none;
+}
+.list{
+    list-style: none;
+}
+.about-img{
+    list-style: none;
+}
+.images-list {
+    list-style: none;
+}
+.contacts-group {
+    list-style: none;
+}
+.button {
+    list-style: none;
+}
+.main-button {
+    color: white;
+    background-color: #2196F3;
+    list-style: none;
+    cursor: pointer;
+}
+.img {
+    list-style: none;
+}
+.secondary-button:hover,
+.secondary-button:focus
+{ 
+    cursor: pointer;
+    color: white;
+    background-color: #2196F3;
+}
+.header-link-main {
+    color: #2196F3;
 }
