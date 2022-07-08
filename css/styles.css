@@ -33,51 +33,13 @@ body {
    font-family: var(--main-font);
    color: #212121;
    }
-.header-link:hover,
-.header-link:focus
- { color: #2196F3;
-}
-.mail:hover,
-.mail:focus 
-{
-color: #2196F3;
-}
+
 .main-button {
     color: white;
     background-color: #2196F3;
     cursor: pointer;
 }
-.btn {}
-.header-list{
-    list-style: none;
-}
-.adress {
-    list-style: none;
-}
-.list{
-    list-style: none;
-}
-.about-img{
-    list-style: none;
-}
-.images-list {
-    list-style: none;
-}
-.contacts-group {
-    list-style: none;
-}
-.button {
-    list-style: none;
-}
-.main-button {
-    color: white;
-    background-color: #2196F3;
-    list-style: none;
-    cursor: pointer;
-}
-.img {
-    list-style: none;
-}
+
 .secondary-button:hover,
 .secondary-button:focus
 { 
@@ -85,6 +47,11 @@ color: #2196F3;
     color: white;
     background-color: #2196F3;
 }
-.header-link-main {
-    color: #2196F3;
+/* reset styles */
+.link{
+text-decoration: none;
+color: currentColor;
+}
+.list{
+list-style: none;
 }
