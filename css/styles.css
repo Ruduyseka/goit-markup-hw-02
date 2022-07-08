@@ -62,5 +62,16 @@ list-style: none;
 .header-link:focus{
     color: #2196F3;
 }
-
+.mail:hover,
+.mail:focus{
+    color: #2196F3;
 }
+.header-phone:hover,
+.header-phone:focus{
+    color: #2196F3;
+}
+.contacts-link:hover,
+.contacts-link:focus{
+    color: #2196F3;
+}
+
