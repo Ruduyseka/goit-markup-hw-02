@@ -55,3 +55,12 @@ color: currentColor;
 .list{
 list-style: none;
 }
+.main {
+    color: #2196F3;
+}
+.header-link:hover,
+.header-link:focus{
+    color: #2196F3;
+}
+
+}
