@@ -1,15 +1,27 @@
-body {
-   font-family: "Roboto", sans-serif;
-   color: FFFFFF;
+
+:root{
+    /* fonts */
+    --main-font: "Roboto", sans-serif;
+    --secondary-font: "Raleway", sans-serif;
+    /* text colors */
+    --header-txt-cl: #000000;
+    --header-secondary-txt-cl: #2196F3;
+    --header-secondary-tel-cl: #D9D9D9;
+    --main
+
+    /* bg colors */
+    --footer-main-bg-cl: #FFFFFF;
+
+    --
+    /* others */
 }
-body {text-decoration: none;}
-footer{
-    text-decoration:none ;
+body {
+   font-family: var(--main-font)
+   color:var(--main-txt-cl)
 }
 .header-link:hover,
-.header-link:focus,
- {
-color: #2196F3;
+.header-link:focus
+ { color: #2196F3;
 }
 .mail:hover,
 .mail:focus 
