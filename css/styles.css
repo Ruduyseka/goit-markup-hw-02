@@ -85,3 +85,7 @@ letter-spacing: 3%;
 color: var(--header-web-txt-cl);
 
 } 
+h1 {
+    background-color:#2F303A;
+    color:white;
+}
