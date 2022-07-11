@@ -70,6 +70,9 @@ list-style: none;
 .header-phone:focus{
     color: #2196F3;
 }
+.contacts-link{
+    color: #FFFFFF;
+}
 .contacts-link:hover,
 .contacts-link:focus{
     color: #2196F3;
@@ -82,10 +85,25 @@ line-height:calc(31 / 26);
 line-height: 100%;
 vertical-align: Top;
 letter-spacing: 3%;
-color: var(--header-web-txt-cl);
+color: var(--header-web-txt-cl );
 
 } 
 h1 {
-    background-color:#2F303A;
-    color:white;
+        color:white;
+}
+.hero{
+    background-color: #2F303A;;
+}
+.logo1{
+    color: #2196F3;
+}
+.logo2{
+    color: #FFFFFF;
+}
+.logo2:hover,
+.logo2:focus{
+    color: #2196F3;
+}
+.footer{
+    background-color: #2F303A;
 }
