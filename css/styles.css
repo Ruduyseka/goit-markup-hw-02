@@ -11,7 +11,7 @@
     --main-txt-cl:#FFFFFF;
     --main-secondary-txt-cl:#188CE8; 
     --main-osob-txt-cl: #212121;
-    --main-osob-txt-cl:#757575;
+    --main-osob1-txt-cl:#757575;
     --main-secon-team-txt-cl: #757575;
 
     --footer-web-txt-cl:#FFFFFF;
@@ -33,7 +33,20 @@ body {
    font-family: var(--main-font);
    color: #212121;
    }
+   .adress-phone{
+    font-family:var(--main-font);
+font-style: normal;
+font-weight: 500;
+font-size: 14px;
+line-height: 16px;
+letter-spacing: 0.02em;
 
+color: #757575;
+
+   }
+   .hero{
+    background-color: var(--main-bg-cl);
+}
 .main-button {
     color: white;
     background-color: #2196F3;
@@ -71,29 +84,103 @@ list-style: none;
     color: #2196F3;
 }
 .contacts-link{
-    color: #FFFFFF;
+font-family:var(--main-font);
+font-style: normal;
+font-weight: 400;
+font-size: 14px;
+line-height:calc(24/14);
+/* or 171% */
+
+letter-spacing: 0.03em;
+color: #FFFFFF;
+}
+.mail-tel{
+    color: rgba(255, 255, 255, 0.6);
+
 }
 .contacts-link:hover,
 .contacts-link:focus{
     color: #2196F3;
 }
 .logo{
-font-family:var(--secondary-font);
-font-style: 700;
-font-size: 26px;
-line-height:calc(31 / 26);
-line-height: 100%;
-vertical-align: Top;
-letter-spacing: 3%;
-color: var(--header-web-txt-cl );
+    font-family:var(--secondary-font);
+    font-style: normal;
+    font-weight: 700;
+    font-size: 26px;
+    line-height:calc(31/26);
+    /* identical to box height */
+    
+    letter-spacing: 0.03em;
+    color: var(--header-web-txt-cl );
 
 } 
+.team{
+    background-color: #F5F4FA;
+}
+.about-title{
+    font-family:var(--main-font);
+    font-style: normal;
+    font-weight: 700;
+    font-size: 14px;
+    line-height:calc(16 / 14);
+    letter-spacing: 0.03em;
+    text-transform: uppercase;
+color: var(--main-osob-txt-cl);
+}
+.about-h3{
+    font-family: var(--main-font);
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height:calc(24 / 14);
+    /* or 171% */
+    
+    letter-spacing: 0.03em;
+    
+    color:var(--main-osob1-txt-cl);
+    }
+    .about-our{
+        font-family:var(--main-font);
+font-style: normal;
+font-weight: 700;
+font-size: 36px;
+line-height:  calc(42 / 36);
+text-align: center;
+letter-spacing: 0.03em;
+
+color: #212121;
+
+    }
+    .our-team{
+        font-family:var(--main-font);
+font-style: normal;
+font-weight: 500;
+font-size: 16px;
+line-height:calc(19/16);
+/* identical to box height */
+
+text-align: center;
+letter-spacing: 0.03em;
+
+color: #212121;
+    }
+    .job-title{
+font-family:var(--main-font);
+font-style: normal;
+font-weight: 400;
+font-size: 16px;
+line-height:calc(19/16);
+/* identical to box height */
+
+text-align: center;
+letter-spacing: 0.03em;
+
+color: #757575;
+    }
 h1 {
         color:white;
 }
-.hero{
-    background-color: #2F303A;;
-}
+
 .logo1{
     color: #2196F3;
 }
