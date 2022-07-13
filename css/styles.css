@@ -143,6 +143,7 @@ letter-spacing: 0.02em;
     color: #2196F3;
 }
 .contacts-link{
+font-style: normal;
 font-size: 14px;
 line-height:calc(24/14);
 /* or 171% */
@@ -211,7 +212,6 @@ letter-spacing: 0.03em;
 color: #212121;
     }
     .job-title{
-font-size: 16px;
 line-height:calc(19/16);
 /* identical to box height */
 
